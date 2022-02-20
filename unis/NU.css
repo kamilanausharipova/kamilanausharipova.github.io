@@ -1,0 +1,140 @@
+body{
+  background-color: White;
+  color: White;
+}
+a{
+  text-decoration: none;
+  color: #7674e2;
+  font-size: 20px;
+  font-family: 'Proxima nova', sans-serif;
+}
+ul li{
+list-style-type: none;
+display: inline-block;
+padding: 19px 0px 10px 30px;
+}
+ul li a:hover{
+color: #4f38b5;
+}
+h2{
+  position: absolute;
+  top: 13%;
+  color: Black;
+  font-family: 'Corbel';
+  left: 42%;
+  font-size: 35px;
+}
+h3{
+  position: absolute;
+  top: 23%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 42%;
+  font-size: 23px;
+}
+
+.s5{
+  position: absolute;
+  top: 76%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.s6{
+  position: absolute;
+  top: 99%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.c{
+  position: absolute;
+  left: 9%;
+  top: 14%;
+}
+.img{
+  position: absolute;
+  width: 400px;
+  height: 270px;
+  left: 10%;
+  top: 20%;
+}
+.navbar{
+position: absolute;
+margin-left: 61%;
+}
+h1{
+  font-family: 'Corbel';
+  color: #7674e2;
+  position: absolute;
+  font-size: 35px;
+  left: 10%;
+  top: 4%;
+}
+.map{
+  position: absolute;
+  top: 67%;
+  left: 42%;
+}
+.dropbtn {
+  background-color: #7674e2;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  width: 330px;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4f38b5;
+}
+.dropdown {
+  position: absolute;
+  top: 113%;
+  left: 9%;
+  display: inline-block;
+  font-family: 'Proxima nova', sans-serif;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 330px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block;}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 37%;
+  left: 42%;
+  color: black;
+  width: 30%;
+  font-size: 18px;
+    font-family: 'Proxima nova';
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
