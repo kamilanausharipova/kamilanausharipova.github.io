@@ -92,7 +92,76 @@ a.button:hover{
 a.button:active {
   transform: translateY(4px);
 }
+@media screen and (min-device-width: 304px) and (max-device-width : 380px){
+  h1{
+    position: absolute;
+    top: 4%;
+    font-size: 75px;
+  left: 19%;
+  }
+  a{
+    text-decoration: none;
+    color: White;
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 40px;
 
+  }
+  ul li{
+    list-style-type: none;
+  display: inline-block;
+  padding: 19px 0px 10px 30px;
+
+  }
+
+  .navbar{
+    position: absolute;
+  margin-left: 10%;
+  top: 11%;
+  }
+  img{
+    position: absolute;
+    top: 20%;
+    left: 21%;
+    width: 600px;
+    height: 428px;
+  }
+  h2{
+    position: absolute;
+    top: 45%;
+    left: 15.5%;
+    text-align: center;
+    font-size: 75px;
+  }
+  h3{
+    position: absolute;
+    top: 57%;
+    left: 11.5%;
+    text-align: center;
+    font-size: 40px;
+  }
+  h4{
+    position: absolute;
+    top: 68%;
+    font-size: 75px;
+    left: 11%;
+  }
+  .button{
+    position: absolute;
+    left: 15%;
+  }
+  a.button{
+    border-radius: 10px;
+    width: 700px;
+    text-align: center;
+    height: 100px;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 92px;
+    color: white;
+  border: 10px;
+  top: 75%;
+  }
+}
 @media screen and (min-device-width: 304px) and (max-device-width : 414px){
   h1{
     position: absolute;
