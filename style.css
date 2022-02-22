@@ -40,6 +40,7 @@ h2{
   left: 10%;
 }
 img{
+  
   position: absolute;
   left: 60%;
   top: 23%;
@@ -198,14 +199,14 @@ a.button:active {
   h2{
     position: absolute;
     top: 45%;
-    left: 17%;
+    left: 16%;
     text-align: center;
     font-size: 75px;
   }
   h3{
     position: absolute;
     top: 57%;
-    left: 13%;
+    left: 12%;
     text-align: center;
     font-size: 40px;
   }
