@@ -1,0 +1,654 @@
+body{
+  background-color: White;
+  color: White;
+}
+a{
+  text-decoration: none;
+  color: #7674e2;
+  font-size: 20px;
+  font-family: 'Proxima nova', sans-serif;
+}
+ul li{
+list-style-type: none;
+display: inline-block;
+padding: 19px 0px 10px 30px;
+}
+ul li a:hover{
+color: #4f38b5;
+}
+h2{
+  position: absolute;
+  top: 13%;
+  color: Black;
+  font-family: 'Corbel';
+  left: 42%;
+  font-size: 33px;
+}
+h3{
+  position: absolute;
+  top: 23%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 42%;
+  font-size: 23px;
+}
+
+.s5{
+  position: absolute;
+  top: 76%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.s6{
+  position: absolute;
+  top: 101%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.c{
+  position: absolute;
+  left: 9%;
+  top: 14%;
+}
+.img{
+  position: absolute;
+  width: 400px;
+  height: 270px;
+  left: 10%;
+  top: 20%;
+}
+.navbar{
+position: absolute;
+margin-left: 61%;
+}
+h1{
+  font-family: 'Corbel';
+  color: #7674e2;
+  position: absolute;
+  font-size: 35px;
+  left: 10%;
+  top: 4%;
+}
+.map{
+  position: absolute;
+  top: 67%;
+  left: 42%;
+}
+.dropbtn {
+  background-color: #7674e2;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  width: 330px;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #4f38b5;
+}
+.dropdown {
+  position: absolute;
+  top: 113%;
+  left: 9%;
+  display: inline-block;
+  font-family: 'Proxima nova', sans-serif;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 330px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.show {display:block}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 37%;
+  left: 42%;
+  color: black;
+  width: 30%;
+  font-size: 18px;
+    font-family: 'Proxima nova';
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+@media only screen and (min-device-width : 200px) and (max-device-width : 303px){
+  .navbar{
+  position: absolute;
+  margin-left: 55.5%;
+  font-size: 35px;
+  top: 4%;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 4%;
+  }
+  h2{
+    position: absolute;
+    top: 10%;
+    font-size: 45px;
+    left: 13%;
+    text-align: center;
+  }
+  h3{
+    position: absolute;
+    top: 16%;
+    font-size: 33px;
+    left: 19%;
+    text-align: center;
+  }
+  .c{
+    position: absolute;
+    top: 22%;
+    left: 37%;
+  }
+table{
+  position: absolute;
+  width: 120%;
+  left: 0%;
+top: 38%;
+}
+.map{
+  position: absolute;
+  top: 50%;
+  left: 21%;
+}
+.s6{
+  position: absolute;
+  top: 76%;
+  left: 55%;
+}
+.dropbtn{
+  position: absolute;
+  width: 1000px;
+}
+.dropdown{
+  position: absolute;
+  top: 85%;
+}
+
+}
+@media screen and (min-device-width: 304px) and (max-device-width : 380px){
+  .navbar{
+  position: absolute;
+  margin-left: 55.5%;
+  font-size: 35px;
+  top: 4%;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 4%;
+  }
+  h2{
+    position: absolute;
+    top: 10%;
+    font-size: 33px;
+    left: 10%;
+  }
+  h3{
+    position: absolute;
+    top: 14%;
+    font-size: 30px;
+    left: 19%;
+    text-align: center;
+  }
+  .c{
+    position: absolute;
+    top: 23%;
+    left: 37%;
+  }
+table{
+  position: absolute;
+  width: 120%;
+  left: 0%;
+top: 43%;
+}
+.map{
+  position: absolute;
+  top: 53%;
+  left: 21%;
+}
+.s6{
+  position: absolute;
+  top: 76%;
+  left: 55%;
+}
+.dropbtn{
+  position: absolute;
+  width: 1000px;
+}
+.dropdown{
+  position: absolute;
+  top: 85%;
+}
+
+}
+@media screen and (min-device-width: 381px) and (max-device-width : 414px){
+  .navbar{
+  position: absolute;
+  margin-left: 55.5%;
+  font-size: 35px;
+  top: 4%;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 4%;
+  }
+  h2{
+    position: absolute;
+    top: 10%;
+    font-size: 37px;
+    left: 10%;
+    text-align: center;
+  }
+  h3{
+    position: absolute;
+    top: 16%;
+    font-size: 30px;
+    left: 19%;
+    text-align: center;
+  }
+  .c{
+    position: absolute;
+    top: 22%;
+    left: 37%;
+  }
+table{
+  position: absolute;
+  width: 120%;
+  left: 0%;
+top: 38%;
+}
+.map{
+  position: absolute;
+  top: 50%;
+  left: 21%;
+}
+.s6{
+  position: absolute;
+  top: 76%;
+  left: 55%;
+}
+.dropbtn{
+  position: absolute;
+  width: 1000px;
+}
+.dropdown{
+  position: absolute;
+  top: 85%;
+}
+
+}
+
+@media only screen and (min-device-width : 415px) and (max-device-width : 820px){
+  .navbar{
+  position: absolute;
+  margin-left: 55.5%;
+  font-size: 35px;
+  top: 4%;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 4%;
+  }
+  h2{
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    font-size: 35px;
+  }
+  h3{
+    position: absolute;
+    top: 18%;
+    font-size: 30px;
+    left: 13%;
+    text-align: center;
+  }
+  .c{
+    position: absolute;
+    top: 28%;
+    left: 37%;
+  }
+table{
+  position: absolute;
+  width: 120%;
+  left: 0%;
+top: 58%;
+}
+.map{
+  position: absolute;
+  top: 74%;
+  left: 21%;
+}
+.s6{
+  position: absolute;
+  top: 110%;
+  left: 55%;
+}
+.s5{
+  position: absolute;
+  top: 110%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.dropbtn{
+  position: absolute;
+  width: 1000px;
+}
+.dropdown{
+  position: absolute;
+  top: 130%;
+}
+
+}
+@media only screen and (min-device-width : 821px) and (max-device-width : 999px){
+  .navbar{
+  position: absolute;
+  margin-left: 55.5%;
+  font-size: 35px;
+  top: 4%;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 55px;
+    left: 10%;
+    top: 4%;
+  }
+  h2{
+    position: absolute;
+    top: 12%;
+    font-size: 45px;
+    left: 13%;
+    text-align: center;
+  }
+  h3{
+    position: absolute;
+    top: 20%;
+    font-size: 35px;
+    left: 20%;
+    text-align: center;
+  }
+  .c{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+  }
+table{
+  position: absolute;
+  width: 120%;
+  left: 0%;
+top: 58%;
+}
+.map{
+  position: absolute;
+  top: 74%;
+  left: 21%;
+}
+.s6{
+  position: absolute;
+  top: 110%;
+  left: 55%;
+}
+.s5{
+  position: absolute;
+  top: 110%;
+  color: Black;
+  font-family: 'Corbel', sans-serif;
+  left: 9%;
+  font-size: 20px;
+}
+.dropbtn{
+  position: absolute;
+  width: 1000px;
+}
+.dropdown{
+  position: absolute;
+  top: 130%;
+}
+}
+@media only screen and (min-device-width : 1000px) and (max-device-width : 1025px){
+  h2{
+    position: absolute;
+    top: 13%;
+    color: Black;
+    font-family: 'Corbel';
+    left: 57%;
+    font-size: 30px;
+  }
+  h3{
+    position: absolute;
+    top: 27%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 57%;
+    font-size: 18px;
+  }
+
+  .s5{
+    position: absolute;
+    top: 76%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 9%;
+    font-size: 20px;
+  }
+  .s6{
+    position: absolute;
+    top: 99%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 9%;
+    font-size: 20px;
+  }
+  .c{
+    position: absolute;
+    left: 9%;
+    top: 14%;
+    width: 440px;
+  }
+  .img{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    left: 10%;
+    top: 20%;
+  }
+  .navbar{
+  position: absolute;
+  margin-left: 57%;
+  font-size: 30px;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 35px;
+    left: 10%;
+    top: 4%;
+  }
+  .map{
+    position: absolute;
+    top: 133%;
+    left: 9%;
+  }
+  .dropbtn {
+    background-color: #7674e2;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 330px;
+
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 113%;
+    left: 9%;
+    display: inline-block;
+    font-family: 'Proxima nova', sans-serif;
+  }
+
+  .show {display:block;}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 45%;
+    left: 57%;
+    color: black;
+    width: 50%;
+    font-size: 18px;
+      font-family: 'Proxima nova';
+  }
+
+}
+@media only screen and (min-device-width : 1026px) and (max-device-width : 1300px){
+  h2{
+    position: absolute;
+    top: 13%;
+    color: Black;
+    font-family: 'Corbel';
+    left: 47%;
+    font-size: 33px;
+  }
+  h3{
+    position: absolute;
+    top: 25%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 47%;
+    font-size: 20px;
+  }
+
+  .s5{
+    position: absolute;
+    top: 76%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 9%;
+    font-size: 20px;
+  }
+  .s6{
+    position: absolute;
+    top: 99%;
+    color: Black;
+    font-family: 'Corbel', sans-serif;
+    left: 9%;
+    font-size: 20px;
+  }
+  .c{
+    position: absolute;
+    left: 9%;
+    top: 14%;
+    width: 440px;
+  }
+  .img{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    left: 10%;
+    top: 20%;
+  }
+  .navbar{
+  position: absolute;
+  margin-left: 57%;
+  font-size: 30px;
+  }
+  h1{
+    font-family: 'Corbel';
+    color: #7674e2;
+    position: absolute;
+    font-size: 35px;
+    left: 10%;
+    top: 4%;
+  }
+  .map{
+    position: absolute;
+    top: 133%;
+    left: 9%;
+  }
+  .dropbtn {
+    background-color: #7674e2;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 330px;
+
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 113%;
+    left: 9%;
+    display: inline-block;
+    font-family: 'Proxima nova', sans-serif;
+  }
+
+  .show {display:block;}
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 37%;
+    left: 47%;
+    color: black;
+    width: 50%;
+    font-size: 18px;
+      font-family: 'Proxima nova';
+  }
+
+}

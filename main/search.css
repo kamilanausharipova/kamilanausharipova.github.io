@@ -1,0 +1,2230 @@
+body{
+  background-color: White;
+  color: Black;
+}
+
+.naving a {
+  position: absolute;
+  text-decoration: none;
+  color: #7674e2;
+  font-family: 'Proxima nova', sans-serif;
+  font-size: 20px;
+ right: 7%;
+ top: 4%;
+}
+
+.naving ul li{
+display: inline-block;
+
+}
+.naving ul li a:active {
+  transform: translateY(4px);
+}
+.naving{
+list-style: none;
+}
+
+h1{
+  position: absolute;
+  font-family: 'Corbel';
+  color: #7674e2;
+  top: 4%;
+  font-size: 35px;
+  margin-left: 10%;
+}
+
+.row1 ul li{
+list-style-type: none;
+display: inline-block;
+padding: 70px 15px 0px 10px;
+}
+
+
+.row2 ul li{
+list-style-type: none;
+display: inline-block;
+padding: 70px 15px 0px 10px;
+}
+.row3 ul li{
+list-style-type: none;
+display: inline-block;
+padding: 70px 15px 0px 10px;
+}
+.img1{
+  width: 250px;
+border-radius: 7px;
+}
+.img2{
+  width: 250px;
+border-radius: 7px;
+}
+.img3{
+  width: 250px;
+  border-radius: 7px;
+}
+.img4{
+  width: 250px;
+border-radius: 7px;
+}
+.img5{
+  width: 250px;
+border-radius: 7px;
+}
+.img6{
+  width: 250px;
+  border-radius: 7px;
+}
+.img7{
+  width: 250px;
+border-radius: 7px;
+}
+.img8{
+  width: 250px;
+border-radius: 7px;
+}
+.img9{
+  width: 250px;
+  border-radius: 7px;
+}
+.img10{
+  width: 250px;
+border-radius: 7px;
+}
+
+.img11{
+  width: 250px;
+  border-radius: 7px;
+}
+.img12{
+  width: 250px;
+border-radius: 7px;
+}
+.img13{
+  width: 250px;
+border-radius: 7px;
+}
+
+.image {
+  position: relative;
+  cursor: pointer;
+}
+/* .image::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,.5));
+  opacity: 0;
+  transition: .3s all;
+  border-radius: 7px;
+}
+.image:hover::after {
+  opacity: 1;
+  display: block;
+} */
+.button1{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 67%;
+  left: 2.7%;
+}
+a.button1 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button1:active {
+  transform: translateY(4px);
+}
+.button2{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 67%;
+  left: 21%;
+}
+a.button2 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button2:active {
+  transform: translateY(4px);
+}
+.button3{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 67%;
+  left: 39.3%;
+}
+a.button3 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button3:active {
+  transform: translateY(4px);
+}
+.button4{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 67%;
+  left: 58.1%;
+}
+a.button4 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button4:active {
+  transform: translateY(4px);
+}
+.button5{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 67%;
+  left: 76.4%;
+}
+a.button5 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button5:active {
+  transform: translateY(4px);
+}
+
+.button6{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 134%;
+  left: 2.7%;
+}
+a.button6 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button6:active {
+  transform: translateY(4px);
+}
+.button7{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 134%;
+  left: 21%;
+}
+a.button7 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button7:active {
+  transform: translateY(4px);
+}
+.button8{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 134%;
+  left: 39.3%;
+}
+a.button8{
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button8:active {
+  transform: translateY(4px);
+}
+.button9{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 134%;
+  left: 57.9%;
+}
+a.button9 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button9:active {
+  transform: translateY(4px);
+}
+.button10{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 134%;
+  left: 76.4%;
+}
+a.button10 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button10:active {
+  transform: translateY(4px);
+}
+.button11{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 201%;
+  left: 2.7%;
+}
+a.button11{
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button11:active {
+  transform: translateY(4px);
+}
+.button12{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 201%;
+  left: 21%;
+}
+a.button12 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button12:active {
+  transform: translateY(4px);
+}
+.button13{
+  text-decoration: none;
+  font-family: 'Corbel';
+  color: White;
+  position: absolute;
+  font-size: 20px;
+  top: 201%;
+  left: 41.9%;
+}
+a.button13 {
+  background-color: #4f38b5;
+  border-radius: 7px;
+  width: 130px;
+  text-align: center;
+  height: 38px;
+  font-weight: bold;
+  line-height: 37px;
+  color: white;
+border: 10px;
+}
+a.button13:active {
+  transform: translateY(4px);
+}
+p{
+  font-size: 19px;
+}
+@media only screen and (min-device-width : 200px) and (max-device-width : 361px){
+  .img1{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img4{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img7{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img10{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img11{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img12{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .naving a {
+    position: absolute;
+    font-size: 40px;
+   right: 7%;
+   top: 4%;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 10px 10px;
+  font-size: 55px;
+  }
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .button1{
+    position: absolute;
+    font-size: 20px;
+    top: 42%;
+    left: 4.5%;
+  }
+  a.button1{
+    width: 402px;
+  }
+  .button2{
+    position: absolute;
+    font-size: 20px;
+    top: 42%;
+    left: 48%;
+  }
+  a.button2{
+    width: 402px;
+  }
+  .button3{
+    position: absolute;
+    font-size: 20px;
+    top: 82%;
+    left: 4.5%;
+  }
+  a.button3{
+    width: 402px;
+  }
+  .button4{
+    position: absolute;
+    font-size: 20px;
+    top: 82%;
+    left: 48%;
+  }
+  a.button4{
+    width: 402px;
+  }
+  .button5{
+    position: absolute;
+    font-size: 20px;
+    top: 122%;
+    left: 4.5%;
+  }
+  a.button5{
+    width: 402px;
+  }
+  .button6{
+    position: absolute;
+    font-size: 20px;
+    top: 164%;
+    left: 4.5%;
+  }
+  a.button6{
+    width: 402px;
+  }
+  .button7{
+    position: absolute;
+    font-size: 20px;
+    top: 164%;
+    left: 48%;
+  }
+  a.button7{
+    width: 402px;
+  }
+  .button8{
+    position: absolute;
+    font-size: 20px;
+    top: 205%;
+    left: 4.5%;
+  }
+  a.button8{
+    width: 402px;
+  }
+  .button9{
+    position: absolute;
+    font-size: 20px;
+    top: 205%;
+    left: 48%;
+  }
+  a.button9{
+    width: 402px;
+  }
+  .button10{
+    position: absolute;
+    font-size: 20px;
+    top: 245%;
+    left: 4.5%;
+  }
+  a.button10{
+      width: 402px;
+    }
+
+    .button11{
+        position: absolute;
+        font-size: 20px;
+        top: 287%;
+        left: 4.5%;
+      }
+      a.button11{
+        width: 402px;
+      }
+      .button12{
+        position: absolute;
+        font-size: 20px;
+        top: 287%;
+        left: 48%;
+      }
+      a.button12{
+        width: 402px;
+      }
+      .button13{
+        position: absolute;
+        font-size: 20px;
+        top: 328%;
+        left: 4.5%;
+      }
+      a.button13{
+        width: 402px;
+      }
+}
+@media screen and (min-device-width: 362px) and (max-device-width : 380px){
+  .img1{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img4{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img7{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img10{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img11{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img12{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .naving a {
+    position: absolute;
+    font-size: 40px;
+   right: 7%;
+   top: 4%;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 10px 10px;
+  font-size: 55px;
+  }
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .button1{
+    position: absolute;
+    font-size: 20px;
+    top: 48%;
+    left: 4.5%;
+  }
+  a.button1{
+    width: 402px;
+  }
+  .button2{
+    position: absolute;
+    font-size: 20px;
+    top: 48%;
+    left: 48%;
+  }
+  a.button2{
+    width: 402px;
+  }
+  .button3{
+    position: absolute;
+    font-size: 20px;
+    top: 95%;
+    left: 4.5%;
+  }
+  a.button3{
+    width: 402px;
+  }
+  .button4{
+    position: absolute;
+    font-size: 20px;
+    top: 95%;
+    left: 48%;
+  }
+  a.button4{
+    width: 402px;
+  }
+  .button5{
+    position: absolute;
+    font-size: 20px;
+    top: 141%;
+    left: 4.5%;
+  }
+  a.button5{
+    width: 402px;
+  }
+  .button6{
+    position: absolute;
+    font-size: 20px;
+    top: 189%;
+    left: 4.5%;
+  }
+  a.button6{
+    width: 402px;
+  }
+  .button7{
+    position: absolute;
+    font-size: 20px;
+    top: 189%;
+    left: 48%;
+  }
+  a.button7{
+    width: 402px;
+  }
+  .button8{
+    position: absolute;
+    font-size: 20px;
+    top: 237%;
+    left: 4.5%;
+  }
+  a.button8{
+    width: 402px;
+  }
+  .button9{
+    position: absolute;
+    font-size: 20px;
+    top: 237%;
+    left: 48%;
+  }
+  a.button9{
+    width: 402px;
+  }
+  .button10{
+    position: absolute;
+    font-size: 20px;
+    top: 284%;
+    left: 4.5%;
+  }
+  a.button10{
+      width: 402px;
+    }
+
+    .button11{
+        position: absolute;
+        font-size: 20px;
+        top: 332%;
+        left: 4.5%;
+      }
+      a.button11{
+        width: 402px;
+      }
+      .button12{
+        position: absolute;
+        font-size: 20px;
+        top: 332%;
+        left: 48%;
+      }
+      a.button12{
+        width: 402px;
+      }
+      .button13{
+        position: absolute;
+        font-size: 20px;
+        top: 379%;
+        left: 4.5%;
+      }
+      a.button13{
+        width: 402px;
+      }
+}
+@media screen and (min-device-width: 381px) and (max-device-width : 412px){
+  .img1{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img2{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img3{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img5{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img8{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img4{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img6{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img7{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img9{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img10{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img11{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img12{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .img13{
+      width: 400px;
+    border-radius: 7px;
+    }
+    .naving a {
+      position: absolute;
+      font-size: 40px;
+     right: 7%;
+     top: 4%;
+    }
+
+    h1{
+      position: absolute;
+      font-family: 'Corbel';
+      color: #7674e2;
+      top: 4%;
+      font-size: 50px;
+      margin-left: 10%;
+    }
+
+    .row1 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 190px 15px 10px 10px;
+    font-size: 55px;
+    }
+
+    .row2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 190px 15px 0px 10px;
+    }
+    .row3 ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 190px 15px 0px 10px;
+    }
+    .button1{
+      position: absolute;
+      font-size: 20px;
+      top: 39%;
+      left: 4.5%;
+    }
+    a.button1{
+      width: 402px;
+    }
+    .button2{
+      position: absolute;
+      font-size: 20px;
+      top: 39%;
+      left: 48%;
+    }
+    a.button2{
+      width: 402px;
+    }
+    .button3{
+      position: absolute;
+      font-size: 20px;
+      top: 76%;
+      left: 4.5%;
+    }
+    a.button3{
+      width: 402px;
+    }
+    .button4{
+      position: absolute;
+      font-size: 20px;
+      top: 76%;
+      left: 48%;
+    }
+    a.button4{
+      width: 402px;
+    }
+    .button5{
+      position: absolute;
+      font-size: 20px;
+      top: 112%;
+      left: 4.5%;
+    }
+    a.button5{
+      width: 402px;
+    }
+    .button6{
+      position: absolute;
+      font-size: 20px;
+      top: 152%;
+      left: 4.5%;
+    }
+    a.button6{
+      width: 402px;
+    }
+    .button7{
+      position: absolute;
+      font-size: 20px;
+      top: 152%;
+      left: 48%;
+    }
+    a.button7{
+      width: 402px;
+    }
+    .button8{
+      position: absolute;
+      font-size: 20px;
+      top: 189%;
+      left: 4.5%;
+    }
+    a.button8{
+      width: 402px;
+    }
+    .button9{
+      position: absolute;
+      font-size: 20px;
+      top: 189%;
+      left: 48%;
+    }
+    a.button9{
+      width: 402px;
+    }
+    .button10{
+      position: absolute;
+      font-size: 20px;
+      top: 227%;
+      left: 4.5%;
+    }
+    a.button10{
+        width: 402px;
+      }
+
+      .button11{
+          position: absolute;
+          font-size: 20px;
+          top: 266%;
+          left: 4.5%;
+        }
+        a.button11{
+          width: 402px;
+        }
+        .button12{
+          position: absolute;
+          font-size: 20px;
+          top: 266%;
+          left: 48%;
+        }
+        a.button12{
+          width: 402px;
+        }
+        .button13{
+          position: absolute;
+          font-size: 20px;
+          top: 303%;
+          left: 4.5%;
+        }
+        a.button13{
+          width: 402px;
+        }
+}
+@media screen and (min-device-width: 413px) and (max-device-width : 414px){
+  .img1{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img4{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img7{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img10{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img11{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img12{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .naving a {
+    position: absolute;
+    font-size: 40px;
+   right: 7%;
+   top: 4%;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 10px 10px;
+  font-size: 55px;
+  }
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .button1{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 4.5%;
+  }
+  a.button1{
+    width: 402px;
+  }
+  .button2{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 48%;
+  }
+  a.button2{
+    width: 402px;
+  }
+  .button3{
+    position: absolute;
+    font-size: 20px;
+    top: 78%;
+    left: 4.5%;
+  }
+  a.button3{
+    width: 402px;
+  }
+  .button4{
+    position: absolute;
+    font-size: 20px;
+    top: 78%;
+    left: 48%;
+  }
+  a.button4{
+    width: 402px;
+  }
+  .button5{
+    position: absolute;
+    font-size: 20px;
+    top: 116%;
+    left: 4.5%;
+  }
+  a.button5{
+    width: 402px;
+  }
+  .button6{
+    position: absolute;
+    font-size: 20px;
+    top: 156%;
+    left: 4.5%;
+  }
+  a.button6{
+    width: 402px;
+  }
+  .button7{
+    position: absolute;
+    font-size: 20px;
+    top: 156%;
+    left: 48%;
+  }
+  a.button7{
+    width: 402px;
+  }
+  .button8{
+    position: absolute;
+    font-size: 20px;
+    top: 195%;
+    left: 4.5%;
+  }
+  a.button8{
+    width: 402px;
+  }
+  .button9{
+    position: absolute;
+    font-size: 20px;
+    top: 195%;
+    left: 48%;
+  }
+  a.button9{
+    width: 402px;
+  }
+  .button10{
+    position: absolute;
+    font-size: 20px;
+    top: 233%;
+    left: 4.5%;
+  }
+  a.button10{
+      width: 402px;
+    }
+
+    .button11{
+        position: absolute;
+        font-size: 20px;
+        top: 275%;
+        left: 4.5%;
+      }
+      a.button11{
+        width: 402px;
+      }
+      .button12{
+        position: absolute;
+        font-size: 20px;
+        top: 275%;
+        left: 48%;
+      }
+      a.button12{
+        width: 402px;
+      }
+      .button13{
+        position: absolute;
+        font-size: 20px;
+        top: 311%;
+        left: 4.5%;
+      }
+      a.button13{
+        width: 402px;
+      }
+}
+@media only screen and (min-device-width : 200px) and (max-device-width : 303px){
+  .img1{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img4{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img7{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img10{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img11{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img12{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .naving a {
+    position: absolute;
+    font-size: 40px;
+   right: 7%;
+   top: 4%;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 10px 10px;
+  font-size: 55px;
+  }
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .button1{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 4.5%;
+  }
+  a.button1{
+    width: 402px;
+  }
+  .button2{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 48%;
+  }
+  a.button2{
+    width: 402px;
+  }
+  .button3{
+    position: absolute;
+    font-size: 20px;
+    top: 78%;
+    left: 4.5%;
+  }
+  a.button3{
+    width: 402px;
+  }
+  .button4{
+    position: absolute;
+    font-size: 20px;
+    top: 78%;
+    left: 48%;
+  }
+  a.button4{
+    width: 402px;
+  }
+  .button5{
+    position: absolute;
+    font-size: 20px;
+    top: 116%;
+    left: 4.5%;
+  }
+  a.button5{
+    width: 402px;
+  }
+  .button6{
+    position: absolute;
+    font-size: 20px;
+    top: 156%;
+    left: 4.5%;
+  }
+  a.button6{
+    width: 402px;
+  }
+  .button7{
+    position: absolute;
+    font-size: 20px;
+    top: 156%;
+    left: 48%;
+  }
+  a.button7{
+    width: 402px;
+  }
+  .button8{
+    position: absolute;
+    font-size: 20px;
+    top: 195%;
+    left: 4.5%;
+  }
+  a.button8{
+    width: 402px;
+  }
+  .button9{
+    position: absolute;
+    font-size: 20px;
+    top: 195%;
+    left: 48%;
+  }
+  a.button9{
+    width: 402px;
+  }
+  .button10{
+    position: absolute;
+    font-size: 20px;
+    top: 233%;
+    left: 4.5%;
+  }
+  a.button10{
+      width: 402px;
+    }
+
+    .button11{
+        position: absolute;
+        font-size: 20px;
+        top: 275%;
+        left: 4.5%;
+      }
+      a.button11{
+        width: 402px;
+      }
+      .button12{
+        position: absolute;
+        font-size: 20px;
+        top: 275%;
+        left: 48%;
+      }
+      a.button12{
+        width: 402px;
+      }
+      .button13{
+        position: absolute;
+        font-size: 20px;
+        top: 311%;
+        left: 4.5%;
+      }
+      a.button13{
+        width: 402px;
+      }
+}
+
+@media only screen and (min-device-width : 415px) and (max-device-width : 820px){
+  .img1{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img4{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img7{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img10{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img11{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img12{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 400px;
+  border-radius: 7px;
+  }
+  .naving a {
+    position: absolute;
+    font-size: 40px;
+   right: 7%;
+   top: 4%;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 50px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 10px 10px;
+  font-size: 55px;
+  }
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 190px 15px 0px 10px;
+  }
+  .button1{
+    position: absolute;
+    font-size: 20px;
+    top: 59%;
+    left: 4.5%;
+  }
+  a.button1{
+    width: 402px;
+  }
+  .button2{
+    position: absolute;
+    font-size: 20px;
+    top: 59%;
+    left: 48%;
+  }
+  a.button2{
+    width: 402px;
+  }
+  .button3{
+    position: absolute;
+    font-size: 20px;
+    top: 116%;
+    left: 4.5%;
+  }
+  a.button3{
+    width: 402px;
+  }
+  .button4{
+    position: absolute;
+    font-size: 20px;
+    top: 116%;
+    left: 48%;
+  }
+  a.button4{
+    width: 402px;
+  }
+  .button5{
+    position: absolute;
+    font-size: 20px;
+    top: 174%;
+    left: 4.5%;
+  }
+  a.button5{
+    width: 402px;
+  }
+  .button6{
+    position: absolute;
+    font-size: 20px;
+    top: 234%;
+    left: 4.5%;
+  }
+  a.button6{
+    width: 402px;
+  }
+  .button7{
+    position: absolute;
+    font-size: 20px;
+    top: 234%;
+    left: 48%;
+  }
+  a.button7{
+    width: 402px;
+  }
+  .button8{
+    position: absolute;
+    font-size: 20px;
+    top: 292%;
+    left: 4.5%;
+  }
+  a.button8{
+    width: 402px;
+  }
+  .button9{
+    position: absolute;
+    font-size: 20px;
+    top: 292%;
+    left: 48%;
+  }
+  a.button9{
+    width: 402px;
+  }
+  .button10{
+    position: absolute;
+    font-size: 20px;
+    top: 351%;
+    left: 4.5%;
+  }
+  a.button10{
+      width: 402px;
+    }
+
+    .button11{
+        position: absolute;
+        font-size: 20px;
+        top: 410%;
+        left: 4.5%;
+      }
+      a.button11{
+        width: 402px;
+      }
+      .button12{
+        position: absolute;
+        font-size: 20px;
+        top: 410%;
+        left: 48%;
+      }
+      a.button12{
+        width: 402px;
+      }
+      .button13{
+        position: absolute;
+        font-size: 20px;
+        top: 468%;
+        left: 4.5%;
+      }
+      a.button13{
+        width: 402px;
+      }
+}
+@media only screen and (min-device-width : 821px) and (max-device-width : 999px){
+
+}
+@media only screen and (min-device-width : 1000px) and (max-device-width : 1025px){
+  .naving a {
+    position: absolute;
+    text-decoration: none;
+    color: #7674e2;
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 20px;
+   right: 7%;
+   top: 4%;
+  }
+
+  .naving ul li{
+  display: inline-block;
+
+  }
+  .naving ul li a:active {
+    transform: translateY(4px);
+  }
+  .naving{
+  list-style: none;
+  }
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 35px;
+    margin-left: 10%;
+  }
+
+  .row1 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 70px 15px 0px 10px;
+  }
+
+
+  .row2 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 70px 15px 0px 10px;
+  }
+  .row3 ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 70px 15px 0px 10px;
+  }
+  .img1{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img2{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img3{
+    width: 250px;
+    border-radius: 7px;
+  }
+  .img4{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img5{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img6{
+    width: 250px;
+    border-radius: 7px;
+  }
+  .img7{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img8{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img9{
+    width: 250px;
+    border-radius: 7px;
+  }
+  .img10{
+    width: 250px;
+  border-radius: 7px;
+  }
+
+  .img11{
+    width: 250px;
+    border-radius: 7px;
+  }
+  .img12{
+    width: 250px;
+  border-radius: 7px;
+  }
+  .img13{
+    width: 250px;
+  border-radius: 7px;
+  }
+
+  .image {
+    position: relative;
+    cursor: pointer;
+  }
+  /* .image::after {
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5), rgba(0,0,0,.5));
+    opacity: 0;
+    transition: .3s all;
+    border-radius: 7px;
+  }
+  .image:hover::after {
+    opacity: 1;
+    display: block;
+  } */
+  .button1{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 67%;
+    left: 2.7%;
+  }
+  a.button1 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button1:active {
+    transform: translateY(4px);
+  }
+  .button2{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 67%;
+    left: 21%;
+  }
+  a.button2 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button2:active {
+    transform: translateY(4px);
+  }
+  .button3{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 67%;
+    left: 39.3%;
+  }
+  a.button3 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button3:active {
+    transform: translateY(4px);
+  }
+  .button4{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 67%;
+    left: 58.1%;
+  }
+  a.button4 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button4:active {
+    transform: translateY(4px);
+  }
+  .button5{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 67%;
+    left: 76.4%;
+  }
+  a.button5 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button5:active {
+    transform: translateY(4px);
+  }
+
+  .button6{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 134%;
+    left: 2.7%;
+  }
+  a.button6 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button6:active {
+    transform: translateY(4px);
+  }
+  .button7{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 134%;
+    left: 21%;
+  }
+  a.button7 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button7:active {
+    transform: translateY(4px);
+  }
+  .button8{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 134%;
+    left: 39.3%;
+  }
+  a.button8{
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button8:active {
+    transform: translateY(4px);
+  }
+  .button9{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 134%;
+    left: 57.9%;
+  }
+  a.button9 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button9:active {
+    transform: translateY(4px);
+  }
+  .button10{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 134%;
+    left: 76.4%;
+  }
+  a.button10 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button10:active {
+    transform: translateY(4px);
+  }
+  .button11{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 201%;
+    left: 2.7%;
+  }
+  a.button11{
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button11:active {
+    transform: translateY(4px);
+  }
+  .button12{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 201%;
+    left: 21%;
+  }
+  a.button12 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+  a.button12:active {
+    transform: translateY(4px);
+  }
+  .button13{
+    text-decoration: none;
+    font-family: 'Corbel';
+    color: White;
+    position: absolute;
+    font-size: 20px;
+    top: 201%;
+    left: 41.9%;
+  }
+  a.button13 {
+    background-color: #4f38b5;
+    border-radius: 7px;
+    width: 130px;
+    text-align: center;
+    height: 38px;
+    font-weight: bold;
+    line-height: 37px;
+    color: white;
+  border: 10px;
+  }
+}
+@media only screen and (min-device-width : 1026px) and (max-device-width : 1280px){
+
+  .naving a {
+    position: absolute;
+    text-decoration: none;
+    color: #7674e2;
+    font-family: 'Proxima nova', sans-serif;
+    font-size: 20px;
+   right: 7%;
+   top: 4%;
+  }
+
+
+  h1{
+    position: absolute;
+    font-family: 'Corbel';
+    color: #7674e2;
+    top: 4%;
+    font-size: 35px;
+    margin-left: 10%;
+  }
+
+    .button1{
+      position: absolute;
+      font-size: 20px;
+      top: 62%;
+      left: 3.2%;
+    }
+    a.button1{
+      width: 250px;
+    }
+    .button2{
+      position: absolute;
+      font-size: 20px;
+      top: 62%;
+      left: 24.8%;
+    }
+    a.button2{
+      width: 250px;
+    }
+    .button3{
+      position: absolute;
+      font-size: 20px;
+      top: 62%;
+      left: 46.8%;
+    }
+    a.button3{
+      width: 250px;
+    }
+    .button4{
+      position: absolute;
+      font-size: 20px;
+      top: 62%;
+      left: 68.8%;
+    }
+    a.button4{
+      width: 250px;
+    }
+    .button5{
+      position: absolute;
+      font-size: 20px;
+      top: 122%;
+      left: 3.2%;
+    }
+    a.button5{
+      width: 250px;
+    }
+    .button6{
+      position: absolute;
+      font-size: 20px;
+      top: 185%;
+      left: 3.2%;
+    }
+    a.button6{
+      width: 250px;
+    }
+    .button7{
+      position: absolute;
+      font-size: 20px;
+      top: 185%;
+      left: 24.8%;
+    }
+    a.button7{
+      width: 250px;
+    }
+    .button8{
+      position: absolute;
+      font-size: 20px;
+      top: 185%;
+      left: 46.8%;
+    }
+    a.button8{
+      width: 250px;
+    }
+    .button9{
+      position: absolute;
+      font-size: 20px;
+      top: 185%;
+      left: 68.8%;
+    }
+    a.button9{
+      width: 250px;
+    }
+    .button10{
+      position: absolute;
+      font-size: 20px;
+      top: 245%;
+      left: 3.2%;
+    }
+    a.button10{
+        width: 250px;
+      }
+
+      .button11{
+          position: absolute;
+          font-size: 20px;
+          top: 310%;
+          left: 3.2%;
+        }
+        a.button11{
+          width: 250px;
+        }
+        .button12{
+          position: absolute;
+          font-size: 20px;
+          top: 310%;
+          left: 24.8%;
+        }
+        a.button12{
+          width: 250px;
+        }
+        .button13{
+          position: absolute;
+          font-size: 20px;
+          top: 310%;
+          left: 46.8%;
+        }
+        a.button13{
+          width: 250px;
+        }
+}
